@@ -1,0 +1,76 @@
+{
+  "_from": "understrap",
+  "_id": "understrap@0.9.1",
+  "_inBundle": false,
+  "_integrity": "sha512-X9jphNuY1m8AWps0F2dXtWOU3cZTkzZfGBT302wQRbBemiRLjqCpu05mZOf4aaP54EfF3fQCFzKBsAjU49kzLg==",
+  "_location": "/understrap",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "understrap",
+    "name": "understrap",
+    "escapedName": "understrap",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_shasum": "69800f4914af862e601d8d62eef1e06b69e0e022",
+  "_spec": "understrap",
+  "_where": "/Users/elayudhanira/Documents/Sites/prii-sto/wp-content/themes",
+  "author": {
+    "name": "Holger Koenemann"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "browser-sync": "^2.26.3",
+    "del": "^3.0.0",
+    "font-awesome": "^4.7.0",
+    "gulp": "3.9.1",
+    "gulp-autoprefixer": "6.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-ignore": "^2.0.2",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "1.0.0",
+    "gulp-rimraf": "^0.2.2",
+    "gulp-sass": "4.0.2",
+    "gulp-sequence": "1.0.0",
+    "gulp-sourcemaps": "2.6.4",
+    "gulp-uglify": "^3.0.1",
+    "gulp-watch": "5.0.1",
+    "run-sequence": "^2.2.1",
+    "undescores-for-npm": "^1.0.0"
+  },
+  "deprecated": false,
+  "description": "PRII Stockholm website",
+  "engines": {
+    "npm": ">=2.1.8"
+  },
+  "homepage": "https://grii-stockholm.org",
+  "keywords": [
+    "wordpress",
+    "theme",
+    "framework",
+    "bootstrap",
+    "underscores"
+  ],
+  "license": "GPL-2.0",
+  "main": "index.js",
+  "name": "prii-sto",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holger1411/understrap.git"
+  },
+  "scripts": {
+    "postinstall": "gulp copy-assets"
+  },
+  "version": "0.9.1"
+}
