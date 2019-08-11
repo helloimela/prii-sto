@@ -1,4 +1,105 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 body{
-  color: red;
+  color: #7a7a7a;
+  background-color: $gray-200;
+}
+
+.serif{
+  font-family: $font-family-serif;
+}
+.sm-text{
+  font-size: $font-size-sm;
+}
+.lead{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#wrapper-navbar nav{
+  background: $gray-200;
+  color: $gray-900;
+}
+
+.cover{
+  padding: 50px 0 100px;
+  h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+    line-height: 1em;
+  }
+  h2{
+    font-family: $font-family-serif;
+  }
+}
+
+.dark-box{
+  background: $gray-900;
+  color: $gray-400;
+  text-align: center;
+  padding: 50px;
+  h1, h2, h3, h4, h5, h6 {
+    color: $gray-400;
+  }
+}
+
+form.simple{
+  &.dark{
+    input{
+      background: transparent;
+      color: $gray-200;
+      border: 0;
+      border-bottom: 1px solid $gray-400;
+      padding: 10px 15px;
+      text-align: center;
+      min-width: 300px;
+    }
+    .btn-primary{
+      border: 1px solid $gray-200;
+      padding: 10px 30px;
+    }
+    p .btn{
+      margin: 20px 0 0;
+    }
+  }
+}
+
+
+.wrapper {
+  padding-bottom: 0;
+}
+.paragraph-title {
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  font-family: $font-family-sans-serif;
+  font-weight: $font-weight-normal;
+  margin-bottom: 30px;
+}
+
+.paragraph-display {
+  margin-bottom: 30px;
+}
+
+#wrapper-footer {
+  background: $gray-900;
+  h1, h2, h3, h4, h5, a {
+    color: $gray-500;
+  }
+}
+
+.main-quotes {
+  background: $gray-300;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.quote {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quote-content {
+  font-family: $font-family-serif;
+  color: $gray-600;
+  line-height: 1.8em;
 }

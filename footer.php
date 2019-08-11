@@ -24,11 +24,31 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 			<div class="col-md-12">
 
-				<footer class="site-footer" id="colophon">
+				<footer class="site-footer" >
 
-					<div class="site-info">
+					<div class="site-info row">
 
-						<?php understrap_site_info(); ?>
+						<div class="col-md-4">
+							<h4>PRII Stockholm</h4>
+						</div>
+
+						<div class="col-md-4">
+							<h5>Info PRII Stockholm</h5>
+							<div class="col-md-6">
+								<a href="">Jadwal</a>
+								<a href="">Galeri</a>
+								<a href="">Mengenai Kami</a>
+							</div>
+							<div class="col-md-6">
+								<a href="">Fondasi</a>
+								<a href="">Kontak & Cabang</a>
+								<a href="">Facebook</a>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<h5>Info Tambahan</h5>
+						</div>
 
 					</div><!-- .site-info -->
 
