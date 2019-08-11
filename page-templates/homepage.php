@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Full Width Page
+ * Template Name: Home page
  *
  * Template for displaying a page without sidebar even if a sidebar widget is published.
  *
@@ -33,7 +33,7 @@ $container = get_theme_mod( 'understrap_container_type' );
       <div class="col-md-12">
         <div class="container dark-box">
           <p class="text-uppercase">Ibadah Minggu</p>
-          <h2 class="serif">17 November 2019, 14.30</h2>
+          <h2 class="serif">Setiap Minggu, 14.30 di Birkagården</h2>
           <p class="sm-text">Lampirkan email anda untuk info lebih lanjut mengenai PRII Stockholm</p>
           <form class="dark simple">
             <input type="email" name="" value="" placeholder="Alamat email">

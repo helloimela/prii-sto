@@ -42,6 +42,10 @@ body{
   }
 }
 
+.nav-link {
+  font-weight: $font-weight-bold;
+}
+
 form.simple{
   &.dark{
     input{
@@ -102,4 +106,23 @@ form.simple{
   font-family: $font-family-serif;
   color: $gray-600;
   line-height: 1.8em;
+}
+
+.site-footer{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  .column {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+  }
+  h6 {
+    font-family: $font-family-sans-serif;
+    font-weight: $font-weight-bold;
+    color: $gray-200;
+  }
+  a {
+    display: block;
+    margin-bottom: 10px;
+  }
 }

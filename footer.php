@@ -30,16 +30,18 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 						<div class="col-md-4">
 							<h4>PRII Stockholm</h4>
+							<p>Persembahan melalui SWISH</p>
+							<p> +46 76 022 16 03</p>	
 						</div>
 
 						<div class="col-md-4">
-							<h5>Info PRII Stockholm</h5>
-							<div class="col-md-6">
+							<h6>Info PRII Stockholm</h6>
+							<div class="column">
 								<a href="">Jadwal</a>
 								<a href="">Galeri</a>
 								<a href="">Mengenai Kami</a>
 							</div>
-							<div class="col-md-6">
+							<div class="column">
 								<a href="">Fondasi</a>
 								<a href="">Kontak & Cabang</a>
 								<a href="">Facebook</a>
@@ -47,7 +49,17 @@ $container = get_theme_mod( 'understrap_container_type' );
 						</div>
 
 						<div class="col-md-4">
-							<h5>Info Tambahan</h5>
+							<h6>Info Tambahan</h6>
+							<div class="column">
+								<a href="">Seputar Stockholm</a>
+								<a href="">KPIN</a>
+								<a href="">Momentum</a>
+							</div>
+							<div class="column">
+								<a href="">RCRS</a>
+								<a href="">Reformed21</a>
+								<a href="">STEMI</a>
+							</div>
 						</div>
 
 					</div><!-- .site-info -->
