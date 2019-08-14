@@ -35,10 +35,11 @@ $container = get_theme_mod( 'understrap_container_type' );
           <p class="text-uppercase">Ibadah Minggu</p>
           <h2 class="serif">Setiap Minggu, 14.30 di Birkagården</h2>
           <p class="sm-text">Lampirkan email anda untuk info lebih lanjut mengenai PRII Stockholm</p>
-          <form class="dark simple">
+          <?php echo do_shortcode('[wpforms id="46" title="false" description="false"]'); ?>
+          <!-- <form class="dark simple">
             <input type="email" name="" value="" placeholder="Alamat email">
             <p> <button type="button" name="button" class="btn btn-primary text-uppercase sm-text">Kirim</button></p>
-          </form>
+          </form> -->
         </div>
         
       </div>
